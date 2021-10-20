@@ -14,20 +14,20 @@ import random
 
 """Настройка"""
 # Указать ваш НОРМАЛЬНЫЙ пульс
-pulseMin = 64  # Ваш минимальный пульс
-pulseMax = 72  # Ваш максимальный пульс
+pulseMin = TODO(60)  # Ваш минимальный пульс
+pulseMax = TODO(70)  # Ваш максимальный пульс
 
 # Указать ваш НОРМАЛЬНЫЙ ЧД
-chDeMin = 41  # Ваша минимальная ЧД
-chDeMax = 49  # Ваша максимальная ЧД
+chDeMin = TODO(40)  # Ваша минимальная ЧД
+chDeMax = TODO(50)  # Ваша максимальная ЧД
 
 # Указать на сколько у вас меняется пульс (ВАШ_НОРМАЛЬНЫЙ_ПАРАМЕТР - ПАРАМЕТР_ПОСЛЕ_ТРЕНИ)
-diffPulseMin = 29
-diffPulseMax = 54
+diffPulseMin = TODO(30)
+diffPulseMax = TODO(50)
 
 # Указать на сколько у вас меняется ЧД (ВАШ_НОРМАЛЬНЫЙ_ПАРАМЕТР - ПАРАМЕТР_ПОСЛЕ_ТРЕНИ)
-diffChDeMin = 29
-diffChDeMax = 42
+diffChDeMin = TODO(30)
+diffChDeMax = TODO(40)
 """Настройка закончена"""
 
 iBPM = random.randrange(pulseMin, pulseMax)
