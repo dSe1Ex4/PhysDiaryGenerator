@@ -13,6 +13,12 @@ from docx import Document
 import random
 
 """Настройка"""
+dates = [
+    "15.09.2021",
+    "22.09.2021",
+    "29.09.2021",
+]
+
 # Указать ваш НОРМАЛЬНЫЙ пульс
 pulseMin = TODO(60)  # Ваш минимальный пульс
 pulseMax = TODO(70)  # Ваш максимальный пульс
@@ -32,12 +38,6 @@ diffChDeMax = TODO(40)
 
 iBPM = random.randrange(pulseMin, pulseMax)
 iB = random.randrange(chDeMin, chDeMax)
-
-dates = [
-    "15.09.2021",
-    "22.09.2021",
-    "29.09.2021",
-]
 
 
 doc=Document()
